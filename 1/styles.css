@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+}
+img {
+    align-self: center;
+    object-fit: contain;
+}
+#container {
+    width: 1110px;
+    background-color: #1D2F30;
+    color: #FFFFFF; 
+    padding-left: 165px; padding-right: 165px;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+p, button, input {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    margin-top: 8px;
+}
+b {
+    font-weight: 700;
+}
+h1, h2, h3 {
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 48px; 
+    font-style: italic;
+    margin-top: 0; margin-bottom: 0;
+}
+h3 {
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 8px; margin-top: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    width: 65px; height: 20px;
+    padding-top: 20px; padding-bottom: 20px;
+}
+nav {
+    margin-left: 125px; margin-right: 296.5px;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    display: flex;
+    gap: 64.5px;
+    padding-top: 17px; padding-bottom: 19px;
+}
+nav a {
+    color: #FFFFFF; text-decoration: none;
+}
+nav a:hover {
+    color: #BAE249;
+}
+#search-in {
+    padding-top: 18px; padding-bottom: 18px;
+    display: flex;
+    gap: 64.5px;
+}
+
+#banner {
+    background-image: url(img/banner.png);
+    margin-left: -165px; margin-right: -165px;
+    padding-top: 75px; padding-bottom: 110px;
+    padding-left: 165px; padding-right: 650px;
+}
+#banner button {
+    background: none; border: none;
+    padding: 0; 
+    margin-top: 8px; margin-bottom: 4px; 
+    color: #BAE249;
+}
+#banner button img {
+    margin-left: 9px; 
+}
+
+#scroll_sect{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#scroll {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.card {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.card_text {
+    border: 1px solid #0B1919;
+    border-radius: 1px;
+    padding-left: 14.5px; padding-right: 14.5px;
+    height: 312px;
+}
+.card_text p {
+    color: #899D9D;
+}
+.card_text button {
+    position:absolute; bottom: -368px;
+    align-self: flex-end;
+    background: none;
+    border: 2px solid #BAE249;
+    border-radius: 1px;
+    padding: 9px 27px;
+    color: #BAE249;
+    margin: 0;
+}
+.card_text button:hover {
+    background-color: #BAE249;
+    color:#0B1919;
+}
+#scroll_page {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#scroll_page img{
+    margin-top: 8px;
+}
+#scroll_page h3 {
+    margin: 0px;
+}
+#article_cont {
+    margin-top: 28px;
+    display: flex;
+    gap: 29px;
+}
+#article_cont img{
+    width: 825px; height: 493px;
+}
+#article_text{
+    color: #506829;
+    background-color: #BAE249;
+    padding-left: 16px; padding-right: 16px;
+}
+#article_text h3 {
+    color:#152223;
+}
+#article_text button {
+    background: none; border: none;
+    margin-top: 64px;
+    margin-left: 0;
+}
+#article_text button img{
+    width: 44px; height: 16px;
+}
+
+#support {
+    background-image: url(img/support.png);
+    margin-left: -165px; margin-right: -165px;
+}
+#support_cont {
+    display: flex;
+    flex-direction: column;
+    padding-left: 165px; padding-right: 440px;
+    padding-top: 60px; padding-bottom: 59px;
+}
+#support_cont p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#support_cont input{
+    width: 330px;
+    height: 40px;
+    margin-bottom: 16px;
+    padding-left: 14px;
+    border-radius: 0;
+}
+#support_cont button {
+    width: 146px; height: 46px;
+    background-color: #BAE249; border: none;
+}
+#support_cont button:hover{
+    background-color: #91AC46;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    gap: 34px;
+    background-color: #0B1919;
+    margin-left: -165px; margin-right: -165px;
+}
+
+#mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #152223;
+    
+}
+#mark p {
+    font-size: 12px;
+    color: #899D9D;
+    margin: 0;
+    
+}
