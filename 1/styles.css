@@ -5,13 +5,13 @@ img {
     align-self: center;
     object-fit: contain;
 }
-#container {
+.container {
     width: 1110px;
     background-color: #1D2F30;
     color: #FFFFFF; 
     padding-left: 165px; padding-right: 165px;
 }
-#main {
+.main {
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -52,7 +52,7 @@ header {
     display: flex;
     flex-direction: row;
 }
-#logo {
+.logo {
     width: 65px; height: 20px;
     padding-top: 20px; padding-bottom: 20px;
 }
@@ -73,34 +73,34 @@ nav a {
 nav a:hover {
     color: #BAE249;
 }
-#search-in {
+.search-in {
     padding-top: 18px; padding-bottom: 18px;
     display: flex;
     gap: 64.5px;
 }
 
-#banner {
+.banner {
     background-image: url(img/banner.png);
     margin-left: -165px; margin-right: -165px;
     padding-top: 75px; padding-bottom: 110px;
     padding-left: 165px; padding-right: 650px;
 }
-#banner button {
+.banner button {
     background: none; border: none;
     padding: 0; 
     margin-top: 8px; margin-bottom: 4px; 
     color: #BAE249;
 }
-#banner button img {
+.banner button img {
     margin-left: 9px; 
 }
 
-#scroll_sect{
+.scroll_sect{
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-#scroll {
+.scroll {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -112,6 +112,8 @@ nav a:hover {
     gap: 0px;
 }
 .card_text {
+    display:flex;
+    flex-direction: column;
     border: 1px solid #0B1919;
     border-radius: 1px;
     padding-left: 14.5px; padding-right: 14.5px;
@@ -120,83 +122,82 @@ nav a:hover {
 .card_text p {
     color: #899D9D;
 }
-.card_text button {
-    position:absolute; bottom: -368px;
-    align-self: flex-end;
+.card_btn {
+    align-self: flex-start;
+    margin-top: auto; margin-bottom: 22px;
     background: none;
     border: 2px solid #BAE249;
     border-radius: 1px;
     padding: 9px 27px;
     color: #BAE249;
-    margin: 0;
 }
 .card_text button:hover {
     background-color: #BAE249;
     color:#0B1919;
 }
-#scroll_page {
+.scroll_page {
     display: flex;
     gap: 30px;
     justify-content: center;
     align-items: center;
 }
-#scroll_page img{
+.scroll_page img{
     margin-top: 8px;
 }
-#scroll_page h3 {
+.scroll_page h3 {
     margin: 0px;
 }
-#article_cont {
+.article_cont {
     margin-top: 28px;
     display: flex;
     gap: 29px;
 }
-#article_cont img{
+.article_cont img{
     width: 825px; height: 493px;
 }
-#article_text{
+.article_text{
     color: #506829;
     background-color: #BAE249;
     padding-left: 16px; padding-right: 16px;
 }
-#article_text h3 {
+.article_text h3 {
     color:#152223;
 }
-#article_text button {
+.article_text button {
     background: none; border: none;
     margin-top: 64px;
     margin-left: 0;
 }
-#article_text button img{
+.article_text button img{
     width: 44px; height: 16px;
 }
 
-#support {
+.support {
     background-image: url(img/support.png);
     margin-left: -165px; margin-right: -165px;
 }
-#support_cont {
+.support_cont {
     display: flex;
     flex-direction: column;
     padding-left: 165px; padding-right: 440px;
     padding-top: 60px; padding-bottom: 59px;
 }
-#support_cont p{
+.support_cont p{
     margin-top: 16px;
     margin-bottom: 16px;
 }
-#support_cont input{
+.support_cont input{
     width: 330px;
     height: 40px;
     margin-bottom: 16px;
     padding-left: 14px;
     border-radius: 0;
 }
-#support_cont button {
+.support_cont button {
     width: 146px; height: 46px;
     background-color: #BAE249; border: none;
 }
-#support_cont button:hover{
+.support_cont button:hover{
     background-color: #91AC46;
 }
 footer {
@@ -209,14 +210,14 @@ footer {
     margin-left: -165px; margin-right: -165px;
 }
 
-#mark {
+.mark {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #152223;
     
 }
-#mark p {
+.mark p {
     font-size: 12px;
     color: #899D9D;
     margin: 0;

@@ -14,22 +14,22 @@
 </head>
 
 <body>
-    <div id="container">
+    <div class="container">
         <header>
-            <img src="img/logo.png" id="logo" alt="logo">
+            <img src="img/logo.png" class="logo" alt="logo">
             <nav>
                 <a href="#">Каталог</a>
                 <a href="#">Галерея</a>
                 <a href="#">О лаборатории</a>
                 <a href="#">Контакты</a>
             </nav>
-            <div id="search-in">
+            <div class="search-in">
                 <img src="img/search.png" alt="search icon">
                 <img src="img/log-in.png" alt="log-in icon">
             </div>
         </header>
-        <div id="main">
-            <div id="banner">
+        <div class="main">
+            <div class="banner">
                 <h1>Крупнейшая коллекция природных артефактов</h1>
                 <p>
                     Являясь всего лишь частью общей картины, интерактивные
@@ -40,18 +40,18 @@
                     <b>Исследовать</b><img src="img/arrow.png" alt="">
                 </button>
             </div>
-            <div id="scroll_sect">
-            <div id="scroll">
+            <div class="scroll_sect">
+            <div class="scroll">
                 <div class="card">
                     <img src="img/plant.png" alt="Растение">
                     <div class="card_text">
-                        <h3>Fig. 1 (plant)</h3>
+                        <div><h3>Fig. 1 (plant)</h3>
                         <p>
                             Имеется спорная точка зрения, гласящая примерно
                             следующее: активно развивающиеся страны третьего мира
                             своевременно верифицированы.
-                        </p>
-                        <button>Подробнее</button>
+                        </p></div>
+                        <button class="card_btn">Подробнее</button>
                     </div>
                 </div>
                 <div class="card">
@@ -65,44 +65,44 @@
                             модернизации условий.
                         </p>
                         </div>
-                        <button>Подробнее</button>
+                        <button class="card_btn">Подробнее</button>
                     </div>
                 </div>
                 <div class="card">
                     <img src="img/leaf.png" alt="Лист">
                     <div class="card_text">
-                        <h3>Fig. 3 (leaf)</h3>
+                        <div><h3>Fig. 3 (leaf)</h3>
                         <p>
                             Лишь непосредственные участники прогресса неоднозначны и 
                             будут в равной степени предоставлены сами 
                             себе для работы.
-                        </p>
-                        <button>Подробнее</button>
+                        </p></div>
+                        <button class="card_btn">Подробнее</button>
                     </div>
                 </div>
                 <div class="card">
                     <img src="img/wood.png" alt="Лист">
                     <div class="card_text">
-                        <h3>Fig. 4 (wood)</h3>
+                        <div><h3>Fig. 4 (wood)</h3>
                         <p>
                             Базовый вектор развития
                              не даёт нам иного выбора, кроме определения новых предложений.
-                        </p>
-                        <button>Подробнее</button>
+                        </p></div>
+                        <button class="card_btn">Подробнее</button>
                     </div>
                 </div>
             </div>
-            <div id="scroll_page">
+            <div class="scroll_page">
                 <img src="img/arrow_left.png" alt="Предыдущий">
                 <h3>1 из 3</h3>
                 <img src="img/arrow_right.png" alt="Следующий">
             </div>
             </div>
-            <div id="article">
+            <div class="article">
                 <h2>Новые артефакты</h2>
-                <div id="article_cont">
+                <div class="article_cont">
                     <img src="img/artefacts.png" alt="Артефакты">
-                    <div id="article_text">
+                    <div class="article_text">
                         <h3>Kurische Nehrung 24</h3>
                         <p>Вот вам яркий пример современных тенденций - 
                             начало повседневной работы по формированию позиции 
@@ -118,8 +118,8 @@
                     </div>
                 </div>
             </div>
-            <div id="support">
-                <div id="support_cont">
+            <div class="support">
+                <div class="support_cont">
                     <h2>Помочь проекту</h2>
                 <p>Равным образом, экономическая повестка сегодняшнего дня не даёт 
                     нам иного выбора, кроме определения прогресса профессионального 
@@ -127,9 +127,12 @@
                     рассмотрены исключительно в разрезе маркетинговых и 
                     финансовых предпосылок. 
                 </p>
-                <input type="text" name="" placeholder="Имя">
-                <input type="text" placeholder="Email">
-                <button><b>Отправить</b></button>
+                <form>
+                    <input type="text" required placeholder="Имя"> <br>
+                    <input type="email" required placeholder="Email"> <br>
+                    <button><b>Отправить</b></button>
+                </form>
+                
                 </div>
             </div>
         </div>
@@ -139,7 +142,7 @@
             <a href="#"><img src="img/fb.png" alt="FaceBook"></a>
             <a href="#"><img src="img/twt.png" alt="Twitter"></a>
         </footer>
-        <div id="mark">
+        <div class="mark">
             <p>f&b ® 2020</p>
         </div>
     </div>
